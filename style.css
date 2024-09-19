@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: rgb(36, 30, 90);
+}
+
+.app {
+  width: 90%;
+  max-width: 500px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 18px;
+  margin: 100px auto 0;
+}
+
+.app h1 {
+  font-size: 24px;
+  border-bottom: 1px solid grey;
+  padding: 4px;
+  margin: 10px;
+}
+
+.questions{
+    margin: 10px;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    cursor: pointer;
+
+}
+
+.next-btn{
+    margin: 10px 45%;
+    display: none;
+}
+
+.next-btn button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
